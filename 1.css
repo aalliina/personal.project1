@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.box2 div, .fixed, .sticky{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    border: 3px solid bisque;
+}
+.relative{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+div .example{
+    background-color: rgb(151, 255, 177);
+}
+.absolute{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+div.fixed{
+    position: fixed;
+    top: 50px;
+}
+div.sticky{
+    position: sticky;
+    top: 50px;
+    left: 950px;
+}
+p{
+    font-size: 40px;
+}
